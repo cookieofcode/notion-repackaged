@@ -41,6 +41,6 @@ export NOTION_ENHANCED_SRC_NAME="enhanced-src"
 export NOTION_ENHANCER_REPO_URL="https://github.com/notion-enhancer/desktop"
 export NOTION_ENHANCER_REPO_NAME="enhancer-desktop-src"
 
-export NOTION_REPACKAGED_HOMEPAGE="https://github.com/jamezrin/notion-repackaged"
+export NOTION_REPACKAGED_HOMEPAGE="https://github.com/cookieofcode/notion-repackaged"
 export NOTION_REPACKAGED_REPO=${NOTION_REPACKAGED_REPO:-${NOTION_REPACKAGED_HOMEPAGE}}
 export NOTION_REPACKAGED_AUTHOR="Notion Repackaged"

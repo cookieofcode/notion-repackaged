@@ -32,7 +32,7 @@ const combineTargetAndArch = (targets, architectures = ['x64', 'arm64']) =>
 const getPublishProviders = (platform) => [
   {
     provider: 'github',
-    publishAutoUpdate: 'true',
+    publishAutoUpdate: true,
   },
 ];
 
