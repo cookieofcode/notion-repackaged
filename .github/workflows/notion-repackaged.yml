@@ -4,8 +4,10 @@ on:
   push:
     branches: [main]
     paths:
-      - 'notion-repackaged.sh'
-      - '.github/workflows/notion-repackaged.yml'
+      - "notion-repackaged.sh"
+      - ".github/workflows/notion-repackaged.yml"
+    tags:
+      - "v*"
 
   workflow_dispatch:
     inputs: {}
@@ -136,4 +138,4 @@ jobs:
     steps:
       - uses: geekyeggo/delete-artifact@v1
         with:
-          name: '${{ matrix.edition }}-sources'
+          name: "${{ matrix.edition }}-sources"
