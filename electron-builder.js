@@ -58,7 +58,7 @@ module.exports = {
   linux: {
     icon: 'icon.icns',
     category: 'Office;Utility;',
-    maintainer: 'jaime@jamezrin.name',
+    maintainer: 'cookieofcode@gmail.com',
     mimeTypes: ['x-scheme-handler/notion'],
     desktop: {
       StartupNotify: 'true',
